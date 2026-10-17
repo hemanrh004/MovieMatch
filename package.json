@@ -1,0 +1,12 @@
+{
+  "name": "moviematch",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev --prefix ./backend\" \"npm run dev --prefix ./Frontend\""
+  },
+
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
